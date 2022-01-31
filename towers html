@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buildings</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <img id="background" alt="background LEGO CITY" src="/html-css/images/LegoCityAdventures.jpg">
+    
+    <header>
+        <a href="/html-css/home/Home.html"> 
+            <img id="BackButton" src="/html-css/images/tilbakeknapp.png" alt="tilbakeknapp">
+        </a>
+        <nav>
+            <ul>
+                <li class="logo"><a href="/html-css/home/Home.html">
+                    <img class="logo" src="/html-css/images/LEGOLOGO.png" alt="lego" width="280" height="100">
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>Lego-Towers</h1>
+            <section>
+                <div class="content">
+
+                    
+                    <a href="/html-css/towers-info/PopUpPisa.html">
+                        <img src="/html-css/images/Pisa.jpeg" alt="Pisa">                   <br>
+                        Leaning Tower of Pisa 
+                    </a>
+                </div>
+                
+                <div class="content">
+                    <a href="/html-css/towers-info/PopUpLiberty.html">
+                        <img src="/html-css/images/Liberty.jpeg" alt="Liberty">                   <br>
+                        Statue Of Liberty 
+                    </a>
+                </div>
+                
+                <div class="content">
+                    <a href="/html-css/towers-info/PopUpEiffel.html">
+                        <img src="/html-css/images/Eiffel.jpeg" alt="Eiffel">                   <br>
+                        Eiffel Tower
+                    </a>
+                </div>
+                
+                <div class="content">
+                    <a href="/html-css/towers-info/PopUpEmpire.html">
+                        <img src="/html-css/images/Empire.jpeg" alt="Empire">                   <br>
+                        Empire State Building
+                    </a>
+                </div>
+                
+                <div class="content">
+                    <a href="/html-css/towers-info/PopUpBurj.html">
+                        <img src="/html-css/images/Burj.jpeg" alt="Burj">                   <br>
+                        Burj Khalifa
+                    </a>
+                </div>
+                
+                <div class="content"> </div>
+                  
+            </section>
+        </article>
+    </main>
+
+</body>
+</html>
