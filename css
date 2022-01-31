@@ -1,0 +1,120 @@
+.logo{
+  position:absolute;
+  left: 75%;
+  top: 0.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: silver;
+  font-family: 'Poppins', sans-serif;
+}
+#background{
+  width: 100vw;
+  z-index: -2;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  background-image: url(../images/LegoCityAdventures.jpg);
+  opacity: 15%;
+
+  top: 26%;
+  left: 50%;}
+
+#BackButton{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  opacity: 70%;
+
+  top: 7%;
+  left: 10%;
+} 
+#BackButton:hover{
+  opacity: 100%;
+  cursor: pointer;
+}
+
+header nav {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+header nav ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+header nav ul li a img {
+  object-fit: contain;
+  width: 350px;
+}
+
+header nav ul li.navi {
+  margin: 16px 0;
+}
+
+main {
+  background: yellow;
+  margin-top: 7%;
+}
+
+main article {
+  padding: 24px 96px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main article h1 {
+  color: black;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+main article p {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+main article section {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  overflow-x: auto;
+}
+
+main article section .content img {
+  height: 350px;
+  object-fit: cover;
+  display: flex;
+}
+
+main article section .content a {
+  color: #292929;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+}
+
+main article section .content a:hover {
+  color: #E3020D;
+}
