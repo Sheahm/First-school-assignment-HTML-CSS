@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>  
+    <img id="background" alt="background LEGO CITY" src="/html-css/images/LegoCityAdventures.jpg"> 
+    <a href="../home/Home.html"> 
+        <img id="BackButton" src="../images/tilbakeknapp.png" alt="tilbakeknapp">
+    </a>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><a href="/html-css/home/Home.html">
+                    <img class="logo" src="../images/LEGOLOGO.png" alt="lego" width="280" height="100">
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Lego-Cities</h1>
+            <section>
+                <div class="content">
+
+                    
+                    <a href="/html-css/Lego-cities/san-fransisco.html">
+                        <img src="../images/sanf.jpeg" alt="Sanf">                   <br>
+                        San Fransisco
+                    </a>
+                </div>
+                
+                <div class="content">
+                    <a href="/html-css/Lego-cities/berlin.html">
+                        <img src="../images/berlin.jpeg" alt="Berlin">                   <br>
+                        Berlin
+                    </a>
+                </div>
+                
+                <div class="content">
+                    <a href="/html-css/Lego-cities/sydney.html">
+                        <img src="../images/Sydney.jpg" alt="Sydney">                   <br>
+                        Sydney
+                    </a>
+                </div>
+                
+                <div class="content">
+                    <a href="/html-css/Lego-cities/london.html">
+                        <img src="../images/LONDON2.jpg" alt="London">                   <br>
+                        London
+                    </a>
+                </div>
+                
+                <div class="content">
+                    <a href="/html-css/Lego-cities/tokyo.html">
+                        <img src="../images/tokyo.jpg" alt="Tokyo">                   <br>
+                        Tokyo
+                    </a>
+                </div>
+                
+                <div class="content"> </div> 
+            </section>
+        </article>
+    </main>
+
+</body>
+</html>
